@@ -225,6 +225,9 @@ body {
 .whatwedo-section {
   padding-bottom: 120px;
 }
+.features-title{
+  visibility: hidden;
+}
 .business-list {
   padding: 0;
   display: flex;
