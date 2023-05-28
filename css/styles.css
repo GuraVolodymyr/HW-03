@@ -225,6 +225,11 @@ body {
 .whatwedo-section {
   padding-bottom: 120px;
 }
+.business-list {
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
 .title {
   font-family: var(--main-text);
   font-style: normal;
@@ -235,7 +240,15 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
 }
+.business-list .item:not(:last-child) {
+  margin-right: 24px;
+}
+
 /* Our Team */
 .team-section {
   background-color: #f4f4fd;
