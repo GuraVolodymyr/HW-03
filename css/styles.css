@@ -107,7 +107,16 @@ body {
 }
 /* Address */
 .address {
+  margin-left: 332px;
   font-style: normal;
+}
+.contacts-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.contacts-list .item:not(:last-child) {
+  margin-right: 40px;
 }
 .contact-link {
   font-family: var(--main-text);
@@ -126,6 +135,10 @@ body {
 /* Hero section */
 .hero {
   background: #2e2f42;
+  height: 600px;
+  margin: 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 800;
@@ -134,13 +147,16 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
+  margin-bottom: 48px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button {
   background: #4d5ae5;
-  font-weight: 800;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -149,13 +165,40 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  padding: 16px 32px;
+  margin: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .button:hover,
 .button:focus {
   background: var(--hover-color);
 }
 /* Features */
+.futures {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.features-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  display: flex;
+}
+.features-item {
+  width: 264px;
+}
+.features-item:not(:last-child) {
+  margin-right: 24px;
+}
 .subject-features {
+  font-weight: 800;
   font-family: var(--main-text);
   font-style: normal;
   font-weight: 500;
@@ -163,8 +206,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  margin-top: 0px;
+  margin-bottom: 8px;
 }
 .text-features {
+  font-weight: 800;
   font-family: var(--main-text);
   font-style: normal;
   font-weight: 400;
@@ -172,8 +218,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 /* What are we doing  */
+.whatwedo-section {
+  padding-bottom: 120px;
+}
 .title {
   font-family: var(--main-text);
   font-style: normal;
